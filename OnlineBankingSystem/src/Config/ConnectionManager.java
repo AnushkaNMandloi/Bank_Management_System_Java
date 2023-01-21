@@ -1,0 +1,20 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package Config;
+
+import java.sql.Connection;
+
+/**
+ *
+ * @author anush
+ */
+public class ConnectionManager {
+    public static void main(String[] args) {
+        DatabaseConnection dc = new DatabaseConnection();
+        Connection con = dc.DatabaseCon();
+        System.out.println(con);
+    }
+            
+}
